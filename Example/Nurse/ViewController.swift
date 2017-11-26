@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Nurse
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let renault = try? InjectorProvider.injector.getInstance(of: Car.self)
+        assert(renault == nil)
     }
 
     override func didReceiveMemoryWarning() {
