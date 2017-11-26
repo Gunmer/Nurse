@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let renault = try? InjectorProvider.injector.getInstance(of: Car.self)
-        assert(renault == nil)
+        assert(renault != nil)
+        assert(!renault!.wheels.isEmpty)
     }
 
     override func didReceiveMemoryWarning() {

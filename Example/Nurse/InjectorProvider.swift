@@ -21,6 +21,7 @@ class InjectorProvider {
         
         func configure(container: Container) {
             container.register(type: Car.self, with: Renault.self)
+            container.register(type: Wheel.self, with: Firestorm.self)
         }
     }
     
