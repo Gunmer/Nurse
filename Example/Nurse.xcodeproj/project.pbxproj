@@ -21,6 +21,8 @@
 		D447D4D81FCB623100B39820 /* InjectorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */; };
 		D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
 		D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
+		D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
+		D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		D447D4CD1FCB3F1B00B39820 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectorProvider.swift; sourceTree = "<group>"; };
 		D447D4D91FCB755900B39820 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		D447D4DE1FCF3EA800B39820 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
 		E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +111,7 @@
 				D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */,
 				D447D4CD1FCB3F1B00B39820 /* Car.swift */,
 				D447D4D91FCB755900B39820 /* Wheel.swift */,
+				D447D4DE1FCF3EA800B39820 /* Motor.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -389,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				D447D4D71FCB5F7100B39820 /* InjectorProvider.swift in Sources */,
 				D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */,
@@ -402,6 +407,7 @@
 			files = (
 				D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */,
 				D447D4D81FCB623100B39820 /* InjectorProvider.swift in Sources */,
+				D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 				D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */,
 			);

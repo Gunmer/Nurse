@@ -27,11 +27,11 @@ public class Container: Injector {
         let key = "\(type)"
         
         guard let produccer = produccers[key] else {
-            fatalError()
+            throw NurseError(message: "There is no instance registered with the type \(type)", code: 1)
         }
         
         guard let instance = try produccer(self) as? T else {
-            fatalError()
+            throw NurseError(message: "The instance is not the type \(type)", code: 2)
         }
         
         return instance
