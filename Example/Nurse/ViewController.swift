@@ -15,7 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         do {
             let renault = try InjectorProvider.injector.getInstance(of: Car.self)
+            let ford = try InjectorProvider.injector.getInstance(of: Car.self, name: "Ford")
             
+            assert(renault is Renault)
+            assert(ford is Ford)
             assert(!renault.wheels.isEmpty)
         } catch {
             print(error)

@@ -20,13 +20,13 @@ class Renault: Car, Injectable {
             try injector.getInstance(of: Wheel.self)
         ]
         
-        motor = try injector.getInstance(of: Motor.self)
+        motor = try injector.getInstance(of: Motor.self, name: "GasolineMotor")
     }
     
 }
 
 
-class For: Car, Injectable {
+class Ford: Car, Injectable {
     
     let wheels: [Wheel]
     let motor: Motor
@@ -39,7 +39,7 @@ class For: Car, Injectable {
             try injector.getInstance(of: Wheel.self)
         ]
         
-        motor = try injector.getInstance(of: Motor.self)
+        motor = try injector.getInstance(of: Motor.self, name: "DieselMotor")
     }
     
 }
