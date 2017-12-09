@@ -2,37 +2,39 @@
 import Foundation
 
 public class Container {
-    typealias Produccer = (Injector) throws -> Injectable
     
-    var produccers = [ProduccerKey:Produccer]()
+    var produccerStorage: ProduccerStorage
+    var instanceStorage: InstanceStorage
     
-    public init() { }
+    public init() {
+        produccerStorage = MemoryProduccerStorage.shared
+        instanceStorage = MemoryInstanceStorage.shared
+    }
     
     public func add(module type: Module.Type) {
         let module = type.init()
         module.configure(container: self)
     }
     
-    public func register<T, J:Injectable>(type: T.Type, with injectable: J.Type, name: String = "") {
-        let produccer = { injector in
+    public func register<T, J:Injectable>(type: T.Type, with injectable: J.Type, name: String = "", scope: Scope = Scope.prototype) {
+        let produccer = Produccer({ injector in
             try injectable.init(with: injector)
-        }
+        }, scope: scope)
         
-        produccers.updateValue(produccer, forKey: ProduccerKey(type: type, name: name))
+        produccerStorage.save(key: ProduccerKey(type: type, name: name), value: produccer)
     }
     
     fileprivate func getInstance<T>(key: ProduccerKey) throws -> T {
-        guard let produccer = produccers[key] else {
-            throw NurseError(message: "There is no instance registered with \(key)", code: 1)
-        }
+        let produccer = try produccerStorage.findProduccerBy(key: key)
+        let injectable = try instanceStorage.retrieveInstanceOf(key: key, produccer: produccer, injector: self)
         
-        guard let instance = try produccer(self) as? T else {
+        guard let instance = injectable as? T else {
             throw NurseError(message: "The instance is not the type \(key.type)", code: 2)
         }
         
         return instance
     }
-    
+ 
 }
 
 extension Container: Injector {
