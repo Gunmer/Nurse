@@ -1,5 +1,5 @@
 PODS:
-  - Nurse (0.1.0)
+  - Nurse (1.0.0)
 
 DEPENDENCIES:
   - Nurse (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Nurse: 0b43822ad576e86441f9ffe0ef722405e39ec0d1
+  Nurse: 9fb4ccc07d837fb3d464b0d1e2ed5dce985487a1
 
 PODFILE CHECKSUM: e1168db641c8c8b45fe99d82d0d6ce3595b267ad
 

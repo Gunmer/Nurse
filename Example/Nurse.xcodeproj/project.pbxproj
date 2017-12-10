@@ -19,6 +19,10 @@
 		D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4CD1FCB3F1B00B39820 /* Car.swift */; };
 		D447D4D71FCB5F7100B39820 /* InjectorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */; };
 		D447D4D81FCB623100B39820 /* InjectorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */; };
+		D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
+		D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
+		D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
+		D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,8 @@
 		D447D4CB1FCB3ABC00B39820 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D447D4CD1FCB3F1B00B39820 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectorProvider.swift; sourceTree = "<group>"; };
+		D447D4D91FCB755900B39820 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		D447D4DE1FCF3EA800B39820 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
 		E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,14 +108,16 @@
 		607FACD21AFB9204008FA782 /* Example for Nurse */ = {
 			isa = PBXGroup;
 			children = (
+				D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */,
+				D447D4CD1FCB3F1B00B39820 /* Car.swift */,
+				D447D4D91FCB755900B39820 /* Wheel.swift */,
+				D447D4DE1FCF3EA800B39820 /* Motor.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				D447D4CD1FCB3F1B00B39820 /* Car.swift */,
-				D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */,
 			);
 			name = "Example for Nurse";
 			path = Nurse;
@@ -229,10 +237,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8ZZEB7QGX4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8ZZEB7QGX4;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -385,8 +395,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				D447D4D71FCB5F7100B39820 /* InjectorProvider.swift in Sources */,
+				D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */,
 				D447D4CE1FCB3F1B00B39820 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +409,9 @@
 			files = (
 				D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */,
 				D447D4D81FCB623100B39820 /* InjectorProvider.swift in Sources */,
+				D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +549,9 @@
 			baseConfigurationReference = 2646246A1D291A70D5642850 /* Pods-Nurse_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
 				INFOPLIST_FILE = Nurse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -550,7 +566,9 @@
 			baseConfigurationReference = 3DD7FA317A83C7D69BDBDC56 /* Pods-Nurse_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
 				INFOPLIST_FILE = Nurse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -564,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5788C9136C81BB4E4A27B30A /* Pods-Nurse_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -575,6 +594,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nurse_Example.app/Nurse_Example";
 			};
 			name = Debug;
 		};
@@ -582,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D977F132506002251E8CC90 /* Pods-Nurse_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -589,6 +610,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nurse_Example.app/Nurse_Example";
 			};
 			name = Release;
 		};
