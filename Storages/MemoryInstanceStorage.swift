@@ -4,13 +4,13 @@ import Foundation
 class MemoryInstanceStorage: InstanceStorage {
     static let shared = MemoryInstanceStorage()
     
-    var singletons: [ProduccerKey:Injectable]
+    var singletons: [FactoryKey:Injectable]
     
     init() {
         singletons = [:]
     }
     
-    func retrieveInstanceOf(key: ProduccerKey, produccer: Produccer, injector: Injector) throws -> Injectable {
+    func retrieveInstanceOf(key: FactoryKey, produccer: Factory, injector: Injector) throws -> Injectable {
         switch produccer.scope {
         case .prototype:
             return try produccer.buildInstance(injector: injector)
@@ -19,7 +19,7 @@ class MemoryInstanceStorage: InstanceStorage {
         }
     }
     
-    private func retrieveFromSingleton(key: ProduccerKey, produccer: Produccer, injector: Injector) throws -> Injectable {
+    private func retrieveFromSingleton(key: FactoryKey, produccer: Factory, injector: Injector) throws -> Injectable {
         if let injectable = singletons[key] {
             return injectable
         }
@@ -27,5 +27,9 @@ class MemoryInstanceStorage: InstanceStorage {
         let injectable = try produccer.buildInstance(injector: injector)
         singletons.updateValue(injectable, forKey: key)
         return injectable
+    }
+    
+    func clear() {
+        singletons.removeAll()
     }
 }

@@ -1,7 +1,7 @@
 
 import Foundation
 
-class Produccer {
+class Factory {
     typealias BuildFuntion = (Injector) throws -> Injectable
     
     let buildFunction: BuildFuntion

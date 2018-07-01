@@ -13,16 +13,16 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* NurseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* NurseTests.swift */; };
 		D447D4BF1FCB392800B39820 /* Pods_Nurse_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */; };
 		D447D4CE1FCB3F1B00B39820 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4CD1FCB3F1B00B39820 /* Car.swift */; };
 		D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4CD1FCB3F1B00B39820 /* Car.swift */; };
-		D447D4D71FCB5F7100B39820 /* InjectorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */; };
-		D447D4D81FCB623100B39820 /* InjectorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */; };
 		D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
 		D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
 		D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
 		D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
+		D4B6A7D220E95B6C002E7569 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D120E95B6C002E7569 /* AppModule.swift */; };
+		D4B6A7D320E95DA4002E7569 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D120E95B6C002E7569 /* AppModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,15 +52,15 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Nurse_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nurse_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* NurseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseTests.swift; sourceTree = "<group>"; };
 		D421DCE8D2910E2DF94C629D /* Pods_Nurse_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D447D4C51FCB3A1A00B39820 /* Nurse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nurse.framework; path = "../../../Library/Developer/Xcode/DerivedData/Nurse-eznmmiwwsrzejpchabmkexzgylyn/Build/Products/Debug-iphoneos/Nurse.framework"; sourceTree = "<group>"; };
 		D447D4CA1FCB3AA100B39820 /* Nurse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nurse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D447D4CB1FCB3ABC00B39820 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D447D4CD1FCB3F1B00B39820 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectorProvider.swift; sourceTree = "<group>"; };
 		D447D4D91FCB755900B39820 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 		D447D4DE1FCF3EA800B39820 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
+		D4B6A7D120E95B6C002E7569 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
 		E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,7 +108,7 @@
 		607FACD21AFB9204008FA782 /* Example for Nurse */ = {
 			isa = PBXGroup;
 			children = (
-				D447D4D61FCB5F7100B39820 /* InjectorProvider.swift */,
+				D4B6A7D120E95B6C002E7569 /* AppModule.swift */,
 				D447D4CD1FCB3F1B00B39820 /* Car.swift */,
 				D447D4D91FCB755900B39820 /* Wheel.swift */,
 				D447D4DE1FCF3EA800B39820 /* Motor.swift */,
@@ -134,7 +134,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* NurseTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -348,8 +348,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */,
+				D4B6A7D220E95B6C002E7569 /* AppModule.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				D447D4D71FCB5F7100B39820 /* InjectorProvider.swift in Sources */,
 				D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */,
 				D447D4CE1FCB3F1B00B39820 /* Car.swift in Sources */,
 			);
@@ -360,9 +360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */,
-				D447D4D81FCB623100B39820 /* InjectorProvider.swift in Sources */,
+				D4B6A7D320E95DA4002E7569 /* AppModule.swift in Sources */,
 				D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */,
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* NurseTests.swift in Sources */,
 				D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
