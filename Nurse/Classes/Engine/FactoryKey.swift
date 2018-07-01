@@ -1,7 +1,7 @@
 
 import Foundation
 
-class ProduccerKey {
+class FactoryKey {
     let type: String
     let name: String
     
@@ -16,19 +16,19 @@ class ProduccerKey {
     
 }
 
-extension ProduccerKey: Hashable {
+extension FactoryKey: Hashable {
     
     var hashValue: Int {
         return key.hashValue
     }
     
-    static func ==(lhs: ProduccerKey, rhs: ProduccerKey) -> Bool {
+    static func ==(lhs: FactoryKey, rhs: FactoryKey) -> Bool {
         return lhs.hashValue == rhs.hashValue
     }
     
 }
 
-extension ProduccerKey: CustomStringConvertible {
+extension FactoryKey: CustomStringConvertible {
     
     var description: String {
         return "Type: \(type) and name: \(name)"

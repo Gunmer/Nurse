@@ -17,3 +17,9 @@ class DieselMotor: Motor, Injectable {
     required init(with injector: Injector) {}
     
 }
+
+class ElectricMotor: Motor, Injectable {
+    
+    required init(with injector: Injector) {}
+    
+}
