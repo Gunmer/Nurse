@@ -1,53 +1,90 @@
 {
+  "author" : "Iconizer",
+  "version" : "1.0",
   "images" : [
     {
-      "idiom" : "iphone",
-      "size" : "20x20",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "iphone",
-      "size" : "20x20",
-      "scale" : "3x"
-    },
-    {
-      "idiom" : "iphone",
-      "size" : "29x29",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "iphone",
-      "size" : "29x29",
-      "scale" : "3x"
-    },
-    {
-      "idiom" : "iphone",
-      "size" : "40x40",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "iphone",
-      "size" : "40x40",
-      "scale" : "3x"
-    },
-    {
-      "idiom" : "iphone",
       "size" : "60x60",
-      "scale" : "2x"
-    },
-    {
+      "filename" : "iphone-appicon@3x.png",
+      "expected-size" : "180",
       "idiom" : "iphone",
-      "size" : "60x60",
       "scale" : "3x"
     },
     {
-      "idiom" : "ios-marketing",
+      "size" : "40x40",
+      "filename" : "iphone-spotlight@2x.png",
+      "expected-size" : "80",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "filename" : "iphone-spotlight@3x.png",
+      "expected-size" : "120",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
+      "size" : "60x60",
+      "filename" : "iphone-appicon@2x.png",
+      "expected-size" : "120",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "size" : "57x57",
+      "filename" : "iphone-oldAppicon@1x.png",
+      "expected-size" : "57",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "filename" : "iphone-settings@2x.png",
+      "expected-size" : "58",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "filename" : "iphone-settings@1x.png",
+      "expected-size" : "29",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "filename" : "iphone-settings@3x.png",
+      "expected-size" : "87",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
+      "size" : "57x57",
+      "filename" : "iphone-oldAppicon@2x.png",
+      "expected-size" : "114",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "size" : "20x20",
+      "filename" : "iphone-notification@2x.png",
+      "expected-size" : "40",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "size" : "20x20",
+      "filename" : "iphone-notification@3x.png",
+      "expected-size" : "60",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
       "size" : "1024x1024",
+      "filename" : "ios-marketing.png",
+      "expected-size" : "1024",
+      "idiom" : "ios-marketing",
       "scale" : "1x"
     }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  }
+  ]
 }
