@@ -23,6 +23,8 @@
 		D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
 		D4B6A7D220E95B6C002E7569 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D120E95B6C002E7569 /* AppModule.swift */; };
 		D4B6A7D320E95DA4002E7569 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D120E95B6C002E7569 /* AppModule.swift */; };
+		D4B6A7D920E98DF0002E7569 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D820E98DF0002E7569 /* TestModule.swift */; };
+		D4B6A7DA20E98DF0002E7569 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D820E98DF0002E7569 /* TestModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,7 @@
 		D447D4D91FCB755900B39820 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 		D447D4DE1FCF3EA800B39820 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
 		D4B6A7D120E95B6C002E7569 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
+		D4B6A7D820E98DF0002E7569 /* TestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModule.swift; sourceTree = "<group>"; };
 		E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,10 +111,6 @@
 		607FACD21AFB9204008FA782 /* Example for Nurse */ = {
 			isa = PBXGroup;
 			children = (
-				D4B6A7D120E95B6C002E7569 /* AppModule.swift */,
-				D447D4CD1FCB3F1B00B39820 /* Car.swift */,
-				D447D4D91FCB755900B39820 /* Wheel.swift */,
-				D447D4DE1FCF3EA800B39820 /* Motor.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -134,6 +133,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D4B6A7D720E98178002E7569 /* Fixtures */,
 				607FACEB1AFB9204008FA782 /* NurseTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -168,6 +168,18 @@
 				D421DCE8D2910E2DF94C629D /* Pods_Nurse_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B6A7D720E98178002E7569 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6A7D120E95B6C002E7569 /* AppModule.swift */,
+				D4B6A7D820E98DF0002E7569 /* TestModule.swift */,
+				D447D4CD1FCB3F1B00B39820 /* Car.swift */,
+				D447D4D91FCB755900B39820 /* Wheel.swift */,
+				D447D4DE1FCF3EA800B39820 /* Motor.swift */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 		E9F45EC28B25A7B68852E78C /* Pods */ = {
@@ -350,6 +362,7 @@
 				D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */,
 				D4B6A7D220E95B6C002E7569 /* AppModule.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D4B6A7D920E98DF0002E7569 /* TestModule.swift in Sources */,
 				D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */,
 				D447D4CE1FCB3F1B00B39820 /* Car.swift in Sources */,
 			);
@@ -360,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */,
+				D4B6A7DA20E98DF0002E7569 /* TestModule.swift in Sources */,
 				D4B6A7D320E95DA4002E7569 /* AppModule.swift in Sources */,
 				D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* NurseTests.swift in Sources */,
