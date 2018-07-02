@@ -8,7 +8,7 @@ protocol Wheel: NSObjectProtocol {
 
 class Firestorm: NSObject, Wheel, Injectable {
     
-    required init(with injector: Injector) throws {
+    required init(injector: Injector) throws {
         
     }
     
@@ -16,7 +16,7 @@ class Firestorm: NSObject, Wheel, Injectable {
 
 class Goodyear: NSObject, Wheel, Injectable {
     
-    required init(with injector: Injector) throws {
+    required init(injector: Injector) throws {
         
     }
     

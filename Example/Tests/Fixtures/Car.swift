@@ -12,7 +12,7 @@ class Renault: Car, Injectable {
     let wheels: [Wheel]
     let motor: Motor
     
-    required init(with injector: Injector) throws {
+    required init(injector: Injector) throws {
         wheels = [
             try injector.getInstance(of: Wheel.self),
             try injector.getInstance(of: Wheel.self),
