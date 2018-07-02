@@ -8,18 +8,18 @@ protocol Motor {
 
 class GasolineMotor: Motor, Injectable {
     
-    required init(with injector: Injector) {}
+    required init(injector: Injector) {}
     
 }
 
 class DieselMotor: Motor, Injectable {
     
-    required init(with injector: Injector) {}
+    required init(injector: Injector) {}
     
 }
 
 class ElectricMotor: Motor, Injectable {
     
-    required init(with injector: Injector) {}
+    required init(injector: Injector) {}
     
 }
