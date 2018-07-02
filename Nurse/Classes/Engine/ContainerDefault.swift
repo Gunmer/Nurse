@@ -13,7 +13,7 @@ class ContainerDelfault : Container {
     
     func register<T, J:Injectable>(type: T.Type, with injectable: J.Type, name: String, scope: Scope) {
         let produccer = Factory({ injector in
-            try injectable.init(with: injector)
+            try injectable.init(injector: injector)
         }, scope: scope)
         
         produccerStorage.save(key: FactoryKey(type: type, name: name), value: produccer)
