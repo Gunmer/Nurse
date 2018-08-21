@@ -7,188 +7,187 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DCFF57E46ED3C6F32BEBADE /* Pods_Nurse_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D421DCE8D2910E2DF94C629D /* Pods_Nurse_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* NurseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* NurseTests.swift */; };
-		D447D4BF1FCB392800B39820 /* Pods_Nurse_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */; };
-		D447D4CE1FCB3F1B00B39820 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4CD1FCB3F1B00B39820 /* Car.swift */; };
-		D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4CD1FCB3F1B00B39820 /* Car.swift */; };
-		D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
-		D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4D91FCB755900B39820 /* Wheel.swift */; };
-		D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
-		D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447D4DE1FCF3EA800B39820 /* Motor.swift */; };
-		D4B6A7D220E95B6C002E7569 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D120E95B6C002E7569 /* AppModule.swift */; };
-		D4B6A7D320E95DA4002E7569 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D120E95B6C002E7569 /* AppModule.swift */; };
-		D4B6A7D920E98DF0002E7569 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D820E98DF0002E7569 /* TestModule.swift */; };
-		D4B6A7DA20E98DF0002E7569 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A7D820E98DF0002E7569 /* TestModule.swift */; };
+		0E7D7349E261C66B48EB1C748A21EAC7 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07F53C5C2C8730DF90F16E3F2D14BED /* Motor.swift */; };
+		195FBC287E074944F2DCD8D1CE2681C5 /* NurseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0769F6E53E4B0A07CE967B3B9D65615 /* NurseTests.swift */; };
+		46D0D193E4FFEEB4CD53055A5070A774 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE922DAF463F9739FA89FC2520F27CE0 /* Car.swift */; };
+		4982BCD9D672C6A2BBF178AE74DA1677 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6FC1A8E4C2AAC05ECAEBB55B3850B86 /* LaunchScreen.xib */; };
+		4AE2A918BF85FD95CC29AD85C3993DF5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE922DAF463F9739FA89FC2520F27CE0 /* Car.swift */; };
+		4C3CF7CE24F6C557F0843EEE33A75200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D5384F96E0DD3C6811A61FFF84DA1 /* ViewController.swift */; };
+		688C8A5EEBF55D520944569D54A1D7C0 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504D5D9380A5BB0A665567F2EED55A6 /* TestModule.swift */; };
+		73D8EAAD76E6B90EB44D4D8D59B7A4B9 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07F53C5C2C8730DF90F16E3F2D14BED /* Motor.swift */; };
+		8D06CC7C176534012BC21BC687E3CCE3 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D8A0A8547D2388D31632C02F13BCF /* Wheel.swift */; };
+		A72E9E6585887B9A37EEA51E607E8E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468612F60998AE079C7EEE8FC248DF7 /* Main.storyboard */; };
+		B1EDEE86040EF56696BE264EBFEB723C /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728135B0516272E36D950F4E15FAB698 /* AppModule.swift */; };
+		B580AC36F6CE34F17249FFEA8E77A4AB /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D8A0A8547D2388D31632C02F13BCF /* Wheel.swift */; };
+		B81E3C82185C8AD67F322F6F20215AED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF50FC67B9A31EDF0499A4EE66217DCB /* Images.xcassets */; };
+		B82DDDF6360DCE5310DC79F9C4BC5C89 /* Pods_Nurse_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F74FE1E6FCAC85A3AF40D3CDEC34BD /* Pods_Nurse_Example.framework */; };
+		CAE6AF2786CDFB4C63E623453C173D61 /* Pods_Nurse_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5354F55115F0B1FD1DD554D34F29F9B4 /* Pods_Nurse_Tests.framework */; };
+		CD33D95C2832556189BF9F856443A774 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728135B0516272E36D950F4E15FAB698 /* AppModule.swift */; };
+		D78C029E8EF3781CC2B7AD2399B5F5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779A66E390C2C3B635877C77ACEB66FE /* AppDelegate.swift */; };
+		F72BEE4C9204800D27DB5CE10159B63B /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504D5D9380A5BB0A665567F2EED55A6 /* TestModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		5D5D4EFEE292767C773DE6D9FEDE94D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			containerPortal = E05F7C6E91B00F733E33E81E651B7C9F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteGlobalIDString = 3F352599DC30F8A83E79A6747D8387B4;
 			remoteInfo = Nurse;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14ADF604917E5F0769FE6281 /* Nurse.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Nurse.podspec; path = ../Nurse.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2646246A1D291A70D5642850 /* Pods-Nurse_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Example/Pods-Nurse_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3D977F132506002251E8CC90 /* Pods-Nurse_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Tests/Pods-Nurse_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3DD7FA317A83C7D69BDBDC56 /* Pods-Nurse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Example/Pods-Nurse_Example.release.xcconfig"; sourceTree = "<group>"; };
-		49E11EE2A6801584EFA0B24B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5788C9136C81BB4E4A27B30A /* Pods-Nurse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Tests/Pods-Nurse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F9B82360D287B2AAF79EC6F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* Nurse_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nurse_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Nurse_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nurse_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* NurseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseTests.swift; sourceTree = "<group>"; };
-		D421DCE8D2910E2DF94C629D /* Pods_Nurse_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D447D4C51FCB3A1A00B39820 /* Nurse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nurse.framework; path = "../../../Library/Developer/Xcode/DerivedData/Nurse-eznmmiwwsrzejpchabmkexzgylyn/Build/Products/Debug-iphoneos/Nurse.framework"; sourceTree = "<group>"; };
-		D447D4CA1FCB3AA100B39820 /* Nurse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nurse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D447D4CB1FCB3ABC00B39820 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D447D4CD1FCB3F1B00B39820 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		D447D4D91FCB755900B39820 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
-		D447D4DE1FCF3EA800B39820 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
-		D4B6A7D120E95B6C002E7569 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
-		D4B6A7D820E98DF0002E7569 /* TestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModule.swift; sourceTree = "<group>"; };
-		E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F37F72FC307B0B91342ABE9C5F7060 /* Nurse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nurse.framework; path = "../../../Library/Developer/Xcode/DerivedData/Nurse-eznmmiwwsrzejpchabmkexzgylyn/Build/Products/Debug-iphoneos/Nurse.framework"; sourceTree = "<group>"; };
+		09F37F72FC307B0B91342ABE9C5F7060 /* Nurse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nurse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4B0B379C38FA3CF0242B3D0ACE5433 /* Pods-Nurse_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Example/Pods-Nurse_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C2D5384F96E0DD3C6811A61FFF84DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36C0B346EA46235D2095522B28CF13A5 /* Nurse.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Nurse.podspec; path = ../Nurse.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D688E87E7E257075F609C54B5D6B1D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		406C0CD24E6DDBEC5C0B3A2D034C1BD2 /* Nurse_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nurse_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A34E46456D74BE50CF648CED5BD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4663556D2B41B4A8CAC7CF09B88DBBA3 /* Nurse_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nurse_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6F515C6D68963C297654E13D01C4E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5354F55115F0B1FD1DD554D34F29F9B4 /* Pods_Nurse_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E1788A9B880235F50A01AEDA4B1605 /* Pods-Nurse_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Tests/Pods-Nurse_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		728135B0516272E36D950F4E15FAB698 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
+		779A66E390C2C3B635877C77ACEB66FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A23D8A0A8547D2388D31632C02F13BCF /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		A255866B08CEE4514F9B287ACE0397A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2BF2A10413D26A1FE7AE1905E6D8DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B07F53C5C2C8730DF90F16E3F2D14BED /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
+		B504D5D9380A5BB0A665567F2EED55A6 /* TestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModule.swift; sourceTree = "<group>"; };
+		C0769F6E53E4B0A07CE967B3B9D65615 /* NurseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseTests.swift; sourceTree = "<group>"; };
+		CE922DAF463F9739FA89FC2520F27CE0 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CF50FC67B9A31EDF0499A4EE66217DCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E411B690B522304F42E04A2A4C9A1D45 /* Pods-Nurse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Example/Pods-Nurse_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EF42F4E00D05AF26D86A24C437E37666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFF1A20981BF3C6C72DD6C4DFA59684A /* Pods-Nurse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nurse_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nurse_Tests/Pods-Nurse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F74FE1E6FCAC85A3AF40D3CDEC34BD /* Pods_Nurse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nurse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A2010B017B67C559C5F0BF56D858AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+		8FD04CC7292D7DEA7F5CE302E5AD723F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D447D4BF1FCB392800B39820 /* Pods_Nurse_Example.framework in Frameworks */,
+				B82DDDF6360DCE5310DC79F9C4BC5C89 /* Pods_Nurse_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		DED79BB8C8C93E0AB7A5FB960FCD282D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCFF57E46ED3C6F32BEBADE /* Pods_Nurse_Tests.framework in Frameworks */,
+				CAE6AF2786CDFB4C63E623453C173D61 /* Pods_Nurse_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		607FACC71AFB9204008FA782 = {
+		97DDBC8D69AB7C1E2966481D12B02444 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for Nurse */,
-				607FACE81AFB9204008FA782 /* Tests */,
-				607FACD11AFB9204008FA782 /* Products */,
-				E9F45EC28B25A7B68852E78C /* Pods */,
-				D0C29DF0674678E6B83A80C5 /* Frameworks */,
+				96F8213E155E05B10E11EDEE42492B8E /* Example for Nurse */,
+				D5A0300FF682533FFD1106F253D8D7D0 /* Frameworks */,
+				6E9AFE48017B0E44306C6A608FB33F7F /* Pods */,
+				F8AC7909CC09DE5098FE4E9DEB265528 /* Podspec Metadata */,
+				EAEBF21DECD9EF604657299BD3B8F5D8 /* Products */,
+				BEEEF08F196B90220AC47A032635538C /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
-		607FACD11AFB9204008FA782 /* Products */ = {
+		EAEBF21DECD9EF604657299BD3B8F5D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* Nurse_Example.app */,
-				607FACE51AFB9204008FA782 /* Nurse_Tests.xctest */,
+				4663556D2B41B4A8CAC7CF09B88DBBA3 /* Nurse_Example.app */,
+				406C0CD24E6DDBEC5C0B3A2D034C1BD2 /* Nurse_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for Nurse */ = {
+		96F8213E155E05B10E11EDEE42492B8E /* Example for Nurse */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
+				39DCFF1D137EE065F554C65C5D5D7ECF /* Supporting Files */,
+				779A66E390C2C3B635877C77ACEB66FE /* AppDelegate.swift */,
+				CF50FC67B9A31EDF0499A4EE66217DCB /* Images.xcassets */,
+				D6FC1A8E4C2AAC05ECAEBB55B3850B86 /* LaunchScreen.xib */,
+				0468612F60998AE079C7EEE8FC248DF7 /* Main.storyboard */,
+				2C2D5384F96E0DD3C6811A61FFF84DA1 /* ViewController.swift */,
 			);
 			name = "Example for Nurse";
 			path = Nurse;
 			sourceTree = "<group>";
 		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+		39DCFF1D137EE065F554C65C5D5D7ECF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
+				44A34E46456D74BE50CF648CED5BD76F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
+		BEEEF08F196B90220AC47A032635538C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D4B6A7D720E98178002E7569 /* Fixtures */,
-				607FACEB1AFB9204008FA782 /* NurseTests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
+				4CB7025E08392AD07573984BA516E543 /* Fixtures */,
+				79DCEE5C40B44DAA9D784D6824AF9FD6 /* Supporting Files */,
+				C0769F6E53E4B0A07CE967B3B9D65615 /* NurseTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+		79DCEE5C40B44DAA9D784D6824AF9FD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
+				F2A2010B017B67C559C5F0BF56D858AE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+		F8AC7909CC09DE5098FE4E9DEB265528 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				14ADF604917E5F0769FE6281 /* Nurse.podspec */,
-				49E11EE2A6801584EFA0B24B /* README.md */,
-				5F9B82360D287B2AAF79EC6F /* LICENSE */,
+				A2BF2A10413D26A1FE7AE1905E6D8DEC /* LICENSE */,
+				36C0B346EA46235D2095522B28CF13A5 /* Nurse.podspec */,
+				4F6F515C6D68963C297654E13D01C4E6 /* README.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		D0C29DF0674678E6B83A80C5 /* Frameworks */ = {
+		D5A0300FF682533FFD1106F253D8D7D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D447D4CB1FCB3ABC00B39820 /* XCTest.framework */,
-				D447D4CA1FCB3AA100B39820 /* Nurse.framework */,
-				D447D4C51FCB3A1A00B39820 /* Nurse.framework */,
-				E9CDA4261131F357C40469AB /* Pods_Nurse_Example.framework */,
-				D421DCE8D2910E2DF94C629D /* Pods_Nurse_Tests.framework */,
+				09F37F72FC307B0B91342ABE9C5F7060 /* Nurse.framework */,
+				F0F74FE1E6FCAC85A3AF40D3CDEC34BD /* Pods_Nurse_Example.framework */,
+				5354F55115F0B1FD1DD554D34F29F9B4 /* Pods_Nurse_Tests.framework */,
+				3D688E87E7E257075F609C54B5D6B1D1 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4B6A7D720E98178002E7569 /* Fixtures */ = {
+		4CB7025E08392AD07573984BA516E543 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				D4B6A7D120E95B6C002E7569 /* AppModule.swift */,
-				D4B6A7D820E98DF0002E7569 /* TestModule.swift */,
-				D447D4CD1FCB3F1B00B39820 /* Car.swift */,
-				D447D4D91FCB755900B39820 /* Wheel.swift */,
-				D447D4DE1FCF3EA800B39820 /* Motor.swift */,
+				728135B0516272E36D950F4E15FAB698 /* AppModule.swift */,
+				CE922DAF463F9739FA89FC2520F27CE0 /* Car.swift */,
+				B07F53C5C2C8730DF90F16E3F2D14BED /* Motor.swift */,
+				B504D5D9380A5BB0A665567F2EED55A6 /* TestModule.swift */,
+				A23D8A0A8547D2388D31632C02F13BCF /* Wheel.swift */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
 		};
-		E9F45EC28B25A7B68852E78C /* Pods */ = {
+		6E9AFE48017B0E44306C6A608FB33F7F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2646246A1D291A70D5642850 /* Pods-Nurse_Example.debug.xcconfig */,
-				3DD7FA317A83C7D69BDBDC56 /* Pods-Nurse_Example.release.xcconfig */,
-				5788C9136C81BB4E4A27B30A /* Pods-Nurse_Tests.debug.xcconfig */,
-				3D977F132506002251E8CC90 /* Pods-Nurse_Tests.release.xcconfig */,
+				1A4B0B379C38FA3CF0242B3D0ACE5433 /* Pods-Nurse_Example.debug.xcconfig */,
+				E411B690B522304F42E04A2A4C9A1D45 /* Pods-Nurse_Example.release.xcconfig */,
+				EFF1A20981BF3C6C72DD6C4DFA59684A /* Pods-Nurse_Tests.debug.xcconfig */,
+				53E1788A9B880235F50A01AEDA4B1605 /* Pods-Nurse_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -196,15 +195,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* Nurse_Example */ = {
+		3F352599DC30F8A83E79A6747D8387B4 /* Nurse_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Nurse_Example" */;
+			buildConfigurationList = F3136624FF9D74C029FB463C27FE5FEE /* Build configuration list for PBXNativeTarget "Nurse_Example" */;
 			buildPhases = (
-				76F2B042E6D5ADF42AB03C28 /* [CP] Check Pods Manifest.lock */,
-				607FACCC1AFB9204008FA782 /* Sources */,
-				607FACCD1AFB9204008FA782 /* Frameworks */,
-				607FACCE1AFB9204008FA782 /* Resources */,
-				BED4945F3726440C6C38745F /* [CP] Embed Pods Frameworks */,
+				EE3997EB0273D86EA46C9C4BC5F3DD74 /* [CP] Check Pods Manifest.lock */,
+				C48AF8AAB358C799785315BA5666582D /* Sources */,
+				8FD04CC7292D7DEA7F5CE302E5AD723F /* Frameworks */,
+				1F6577B540B7AC8427571EE4290C4A80 /* Resources */,
+				0707791AB903708458B079F3A60D8961 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,52 +211,52 @@
 			);
 			name = Nurse_Example;
 			productName = Nurse;
-			productReference = 607FACD01AFB9204008FA782 /* Nurse_Example.app */;
+			productReference = 4663556D2B41B4A8CAC7CF09B88DBBA3 /* Nurse_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* Nurse_Tests */ = {
+		7BAC5F88AB5BE65A86E310397D4B3EBB /* Nurse_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Nurse_Tests" */;
+			buildConfigurationList = 35ED05CE64C7E5000201D7007F64F4C0 /* Build configuration list for PBXNativeTarget "Nurse_Tests" */;
 			buildPhases = (
-				F8FCC43FE32ED993DA90B8E8 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
+				6AED04378DE43A23BF5BAC693EED8796 /* [CP] Check Pods Manifest.lock */,
+				1A28C047369F063CFE4B20D800D954E4 /* Sources */,
+				DED79BB8C8C93E0AB7A5FB960FCD282D /* Frameworks */,
+				8613419888C1DCC13FE5AC68204ABE66 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+				E9B5B4B0E6F717B3FF2FD9D8411973C7 /* PBXTargetDependency */,
 			);
 			name = Nurse_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Nurse_Tests.xctest */;
+			productReference = 406C0CD24E6DDBEC5C0B3A2D034C1BD2 /* Nurse_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		607FACC81AFB9204008FA782 /* Project object */ = {
+		E05F7C6E91B00F733E33E81E651B7C9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
+					3F352599DC30F8A83E79A6747D8387B4 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 8ZZEB7QGX4;
 						LastSwiftMigration = 0900;
 					};
-					607FACE41AFB9204008FA782 = {
+					7BAC5F88AB5BE65A86E310397D4B3EBB = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 8ZZEB7QGX4;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+						TestTargetID = 3F352599DC30F8A83E79A6747D8387B4;
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nurse" */;
+			buildConfigurationList = 99883A440BC6DC90CDCAF4B1767CE275 /* Build configuration list for PBXProject "Nurse" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,29 +264,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 607FACC71AFB9204008FA782;
-			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			mainGroup = 97DDBC8D69AB7C1E2966481D12B02444;
+			productRefGroup = EAEBF21DECD9EF604657299BD3B8F5D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* Nurse_Example */,
-				607FACE41AFB9204008FA782 /* Nurse_Tests */,
+				3F352599DC30F8A83E79A6747D8387B4 /* Nurse_Example */,
+				7BAC5F88AB5BE65A86E310397D4B3EBB /* Nurse_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACCE1AFB9204008FA782 /* Resources */ = {
+		1F6577B540B7AC8427571EE4290C4A80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				B81E3C82185C8AD67F322F6F20215AED /* Images.xcassets in Resources */,
+				4982BCD9D672C6A2BBF178AE74DA1677 /* LaunchScreen.xib in Resources */,
+				A72E9E6585887B9A37EEA51E607E8E59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		8613419888C1DCC13FE5AC68204ABE66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,7 +296,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		76F2B042E6D5ADF42AB03C28 /* [CP] Check Pods Manifest.lock */ = {
+		EE3997EB0273D86EA46C9C4BC5F3DD74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,7 +314,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BED4945F3726440C6C38745F /* [CP] Embed Pods Frameworks */ = {
+		0707791AB903708458B079F3A60D8961 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +332,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nurse_Example/Pods-Nurse_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F8FCC43FE32ED993DA90B8E8 /* [CP] Check Pods Manifest.lock */ = {
+		6AED04378DE43A23BF5BAC693EED8796 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,56 +353,56 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		607FACCC1AFB9204008FA782 /* Sources */ = {
+		C48AF8AAB358C799785315BA5666582D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				D447D4DF1FCF3EA800B39820 /* Motor.swift in Sources */,
-				D4B6A7D220E95B6C002E7569 /* AppModule.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				D4B6A7D920E98DF0002E7569 /* TestModule.swift in Sources */,
-				D447D4DA1FCB755900B39820 /* Wheel.swift in Sources */,
-				D447D4CE1FCB3F1B00B39820 /* Car.swift in Sources */,
+				D78C029E8EF3781CC2B7AD2399B5F5AA /* AppDelegate.swift in Sources */,
+				B1EDEE86040EF56696BE264EBFEB723C /* AppModule.swift in Sources */,
+				46D0D193E4FFEEB4CD53055A5070A774 /* Car.swift in Sources */,
+				73D8EAAD76E6B90EB44D4D8D59B7A4B9 /* Motor.swift in Sources */,
+				688C8A5EEBF55D520944569D54A1D7C0 /* TestModule.swift in Sources */,
+				4C3CF7CE24F6C557F0843EEE33A75200 /* ViewController.swift in Sources */,
+				8D06CC7C176534012BC21BC687E3CCE3 /* Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		1A28C047369F063CFE4B20D800D954E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D447D4CF1FCB3F1B00B39820 /* Car.swift in Sources */,
-				D4B6A7DA20E98DF0002E7569 /* TestModule.swift in Sources */,
-				D4B6A7D320E95DA4002E7569 /* AppModule.swift in Sources */,
-				D447D4E01FCF3F6D00B39820 /* Motor.swift in Sources */,
-				607FACEC1AFB9204008FA782 /* NurseTests.swift in Sources */,
-				D447D4DB1FCB767300B39820 /* Wheel.swift in Sources */,
+				CD33D95C2832556189BF9F856443A774 /* AppModule.swift in Sources */,
+				4AE2A918BF85FD95CC29AD85C3993DF5 /* Car.swift in Sources */,
+				0E7D7349E261C66B48EB1C748A21EAC7 /* Motor.swift in Sources */,
+				195FBC287E074944F2DCD8D1CE2681C5 /* NurseTests.swift in Sources */,
+				F72BEE4C9204800D27DB5CE10159B63B /* TestModule.swift in Sources */,
+				B580AC36F6CE34F17249FFEA8E77A4AB /* Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		E9B5B4B0E6F717B3FF2FD9D8411973C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* Nurse_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			target = 3F352599DC30F8A83E79A6747D8387B4 /* Nurse_Example */;
+			targetProxy = 5D5D4EFEE292767C773DE6D9FEDE94D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		0468612F60998AE079C7EEE8FC248DF7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				A255866B08CEE4514F9B287ACE0397A3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		D6FC1A8E4C2AAC05ECAEBB55B3850B86 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				EF42F4E00D05AF26D86A24C437E37666 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -411,7 +410,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		607FACED1AFB9204008FA782 /* Debug */ = {
+		D87770E5FA7BA903F1F4E571A4B34995 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -466,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		607FACEE1AFB9204008FA782 /* Release */ = {
+		B25012282EB5B62932998A48BAC97087 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -514,9 +513,9 @@
 			};
 			name = Release;
 		};
-		607FACF01AFB9204008FA782 /* Debug */ = {
+		63CE487D023738B1782DCA4B6D5D630E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2646246A1D291A70D5642850 /* Pods-Nurse_Example.debug.xcconfig */;
+			baseConfigurationReference = 1A4B0B379C38FA3CF0242B3D0ACE5433 /* Pods-Nurse_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
@@ -531,9 +530,9 @@
 			};
 			name = Debug;
 		};
-		607FACF11AFB9204008FA782 /* Release */ = {
+		5D57D6443F87D53804100E79BA848B17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DD7FA317A83C7D69BDBDC56 /* Pods-Nurse_Example.release.xcconfig */;
+			baseConfigurationReference = E411B690B522304F42E04A2A4C9A1D45 /* Pods-Nurse_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
@@ -548,9 +547,9 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		101C1E8491B3008EF395B75BBAE38719 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5788C9136C81BB4E4A27B30A /* Pods-Nurse_Tests.debug.xcconfig */;
+			baseConfigurationReference = EFF1A20981BF3C6C72DD6C4DFA59684A /* Pods-Nurse_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -568,9 +567,9 @@
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		6CC0513017B74896E6B97C821404C655 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D977F132506002251E8CC90 /* Pods-Nurse_Tests.release.xcconfig */;
+			baseConfigurationReference = 53E1788A9B880235F50A01AEDA4B1605 /* Pods-Nurse_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8ZZEB7QGX4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -587,34 +586,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nurse" */ = {
+		99883A440BC6DC90CDCAF4B1767CE275 /* Build configuration list for PBXProject "Nurse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACED1AFB9204008FA782 /* Debug */,
-				607FACEE1AFB9204008FA782 /* Release */,
+				D87770E5FA7BA903F1F4E571A4B34995 /* Debug */,
+				B25012282EB5B62932998A48BAC97087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Nurse_Example" */ = {
+		F3136624FF9D74C029FB463C27FE5FEE /* Build configuration list for PBXNativeTarget "Nurse_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF01AFB9204008FA782 /* Debug */,
-				607FACF11AFB9204008FA782 /* Release */,
+				63CE487D023738B1782DCA4B6D5D630E /* Debug */,
+				5D57D6443F87D53804100E79BA848B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Nurse_Tests" */ = {
+		35ED05CE64C7E5000201D7007F64F4C0 /* Build configuration list for PBXNativeTarget "Nurse_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				101C1E8491B3008EF395B75BBAE38719 /* Debug */,
+				6CC0513017B74896E6B97C821404C655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+	rootObject = E05F7C6E91B00F733E33E81E651B7C9F /* Project object */;
 }
